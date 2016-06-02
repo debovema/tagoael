@@ -23,9 +23,9 @@ type TagoaelConfiguration struct {
 func DefaultTagoaelConfiguration() *TagoaelConfiguration {
 	return &TagoaelConfiguration{
 		GlobalConfiguration: GlobalConfiguration{
-			MessageToDisplay: "Hello World",
-			NumberToDisplay: 5,
-			DisplayIndex:	  false,
+			MessageToDisplay:	"HELLO WORLD",
+			NumberToDisplay:	1000,
+			DisplayIndex:		true,
 		},
 		ConfigFile: "tagoael", // by default looks
 	}
